@@ -1,0 +1,13 @@
+public class pract1 {
+    public static void main(String[] args) {
+    
+        String Name="vanshika"; 
+        String name=new String("vanshika");
+        if(Name.equals(name)){
+            System.out.println("equal");
+        }
+        else{
+            System.out.println("not equal");
+        }
+    } 
+}
