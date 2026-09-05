@@ -1,0 +1,8 @@
+public class pract1 {
+    public static void main(String[] args) {
+        //length function use
+        String firstName="vanshika"; 
+        String lastName="sharma";
+        System.out.println(lastName.length());   
+    }
+}
