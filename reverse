@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        long num=sc.nextLong();
+        long reverse=0;
+        long n=num;
+        while(n!=0){
+            long digit=n%10;
+            reverse=reverse*10+digit;
+            n=n/10;
+        }
+        if(reverse>Integer.MAX_VALUE||reverse<Integer.MIN_VALUE){
+            System.out.println(0);
+        }
+        else{
+            System.out.println((int)reverse);
+        }
+    }
+}
