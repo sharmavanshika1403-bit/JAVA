@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+    HashMap<String,Integer>map=new HashMap<>();
+    map.put("india",150);
+    map.put("usa",120);
+    map.put("china",130);
+    System.out.println(map);
+    map.put("china",120);
+    System.out.println(map);
+    }
+} 
