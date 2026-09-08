@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+    HashMap<String,Integer>map=new HashMap<>();
+    map.put("india",150);
+    map.put("usa",120);
+    map.put("china",130);
+    map.put("china",120);
+    System.out.println(map);
+    if(map.containsKey("china")){
+        System.out.println("present");
+    }
+    else{
+        System.out.println("not present");
+    }
+    System.out.println(map.get("india"));
+    System.out.println(map.get("indonesia"));
+    }
+} 
