@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int position= sc.nextInt();
+        int bitmask= 1<<position;
+        int new_number=bitmask | n;
+        System.out.println(new_number);
+            
+
+        
+    }
+}
